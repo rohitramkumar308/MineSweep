@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App details  -->
+    <string name="app_name">MineSweep</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="new_game_label">New Game</string>
+    <string name="exit_label">Exit</string>
+    <string name="high_label">High Scores</string>
+    <string name="main_title">MineSweep</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_shortcut">s</string>
+
+    <!-- High Score  -->
+    <string name="highScoreGrid">Grid Size: N/A</string>
+    <string name="firstPlace">1st Place</string>
+    <string name="secondPlace">2nd Place</string>
+    <string name="thirdPlace">3rd Place</string>
+    <string name="fourthPlace">4th Place</string>
+    <string name="fifthPlace">5th Place</string>
+
+
+    <!-- Settings  -->
+    <string name="redColor">Red</string>
+    <string name="greenColor">Green</string>
+    <string name="blueColor">Blue</string>
+    <string name="gridSize">Grid Size</string>
+    <string name="closeCellColor">Close</string>
+    <string name="openCellColor">Open</string>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/trophy_icon"
+            android:layout_column="1" />
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/highScoreTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/gridSizeText"
+                android:layout_column="1"
+                android:text="@string/highScoreGrid"
+                android:textSize="20dp"
+                android:padding="3dip"
+                android:gravity="center"
+                android:layout_span="2" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/firstPlace"
+                android:textSize="20dp"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/firstPlace"
+                android:text="N/A"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/secondPlace"
+                android:textSize="20dp"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/secondPlace"
+                android:text="N/A"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/thirdPlace"
+                android:textSize="20dp"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/thirdPlace"
+                android:text="N/A"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/fourthPlace"
+                android:textSize="20dp"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/fourthPlace"
+                android:text="N/A"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:text="@string/fifthPlace"
+                android:textSize="20dp"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/fifthPlace"
+                android:text="N/A"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:padding="3dip" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
